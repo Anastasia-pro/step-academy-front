@@ -17,7 +17,7 @@ import Registration from "./components/Registration/Registration";
 import ProfilePage from './pages/ProfilePage/ProfilePage';
 import PersonalPage from "./components/PersonalPage/PersonalPage";
 
-// import { useEffect } from "react";
+
 
 
 function App() {
