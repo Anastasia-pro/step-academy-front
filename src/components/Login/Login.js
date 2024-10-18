@@ -4,8 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form'
 import { Navigate } from 'react-router-dom';
-import { useEffect } from 'react';
-import { authSelect, fetchLogin, logout } from '../../redux/slices/auth.js';
+import { authSelect, fetchLogin } from '../../redux/slices/auth.js';
 
 export default function Login() {
 
@@ -16,8 +15,7 @@ export default function Login() {
   const {
     register,
     handleSubmit,
-    setError,
-    formState: { errors, isValid }
+    formState: { errors }
   } = useForm({
     defaultValues: {
       fullName: '',

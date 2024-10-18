@@ -17,18 +17,19 @@ import Registration from "./components/Registration/Registration";
 import ProfilePage from './pages/ProfilePage/ProfilePage';
 import PersonalPage from "./components/PersonalPage/PersonalPage";
 
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 
 function App() {
+
   const dispatch = useDispatch();
 
-  useEffect(() => {
+React.useEffect(() => {
     const token = sessionStorage.getItem('token');
     if (token) {
       dispatch(fetchLoginMe());
     }
-  }, []);
+  }, [dispatch]);
 
 
   return (
