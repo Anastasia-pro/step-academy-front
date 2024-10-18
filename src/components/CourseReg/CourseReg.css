@@ -1,0 +1,46 @@
+.chess-sign {
+    margin-top: 30px;
+    background-color: #00093c;
+  }
+  
+  .chess-sign__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 0;
+    color: #fff;
+  }
+  
+  .chess-sign__text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .chess-sign__rec {
+    max-width: 480px;
+  }
+  
+  .chess-sign__btn {
+    background-color: #f7941d;
+    padding: 13px 20px;
+    align-self: center;
+    text-align: center;
+  }
+
+
+  @media (max-width: 1070px) {
+    .chess-sign__rec {
+        font-size: 14px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .chess-sign__text {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+  }
+
+  

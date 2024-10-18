@@ -1,0 +1,201 @@
+input {
+    border: none;
+    outline: none;
+  }
+  .help-form__block-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    flex-direction: row;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 21px 0px rgba(39, 170, 225, 0.27);
+    transition: all 0.3s;
+  }
+  .help-form__block-inner::before {
+    position: absolute;
+    content: "";
+    background-image: url("/public/assets/owl-help.png");
+    width: 272px;
+    height: 300px;
+    left: -53px;
+    top: 50px;
+  }
+  .help-form__owl {
+    height: 190px;
+    position: relative;
+    max-width: 390px;
+    padding: 20px;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(90deg, #f7941d 0%, #27aae1 100%) border-box;
+  }
+  .help-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 18px;
+  }
+  
+  .help-form__name,
+  .help-form__email,
+  .help-form__tel {
+    width: 47%;
+    border-radius: 6px;
+    background: rgba(0, 9, 60, 0.1);
+    height: 50px;
+    padding: 15px 20px;
+  }
+  .help-form__name {
+    width: 100%;
+    max-width: 440px;
+  }
+  
+  .help-form__agree-text {
+    color: #000;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  
+  .help-form__btn {
+    background-color: #f7941d;
+    padding: 12px 56px;
+    text-align: center;
+    color: #fff;
+  }
+  .help-form__btn:hover {
+    cursor: pointer;
+    background-color: #ffa600;
+  }
+  .help-form__owl::after,
+  .help-form__owl::before {
+    content: "";
+    position: absolute;
+    border: 17px solid transparent;
+    border-right: 25px solid #ffa600;
+    left: -42px;
+    top: 100px;
+  }
+  
+  .help-form__owl::after {
+    border-right: 25px solid white;
+    left: -37px;
+  }
+  
+  .help-form__owl-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  
+  .help-form__owl-subt {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .help-form__container {
+    max-width: 440px;
+  }
+  
+  
+  
+  @media (max-width: 1400px) {
+    .help-form__owl {
+      max-width: 350px;
+    }
+    .help-form__block-inner::before {
+      left: -15px;
+      top: 100px;
+    }
+    .help-form__name, .help-form__email, .help-form__tel {
+      width: 100%;
+    }
+  }
+  @media (max-width: 1200px) {
+    .help-form__owl {
+      max-width: 310px;
+    }
+    .help-form__block-inner::before,
+    .help-form__owl::after, 
+    .help-form__owl::before {
+      display: none;
+    }
+    .help-form__owl {
+      max-width: 50%;
+      margin: 0 auto;
+      align-self: center;
+  }
+    .help-form__owl-title {
+      font-size: 22px;
+      margin-bottom: 35px;
+    }
+  }
+  @media (max-width: 1040px) {
+    .help-form__owl {
+      max-height: 160px;
+    }
+    .help-form__block-inner::before {
+      left: 0;
+    }
+    .help-form__owl-title {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .help-form__owl-subt {
+      font-size: 12px;
+    }
+    .help-form__btn {
+      padding: 12px 45px;
+    }
+    .modal-content {
+      width: 37vw;
+    }
+  }
+  @media (max-width: 900px) {
+    .help-form__name {
+      width: 100%;
+      max-width: none;
+    }
+    .help-form__owl {
+      max-height: none;
+      height: auto;
+    }
+  }
+  @media (max-width: 700px) {
+    .help-form__block-inner::before,
+    .help-form__owl {
+      display: none;
+    }
+    .help-form__container,
+    .help-form__name,
+    .help-form__email,
+    .help-form__tel {
+      max-width: none;
+    }
+    .modal-content {
+      width: 70vw;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .help-form__name,
+    .help-form__email,
+    .help-form__tel {
+      width: 100%;
+    }
+  }
+  @media (max-width: 500px) {
+    .help-form__name,
+    .help-form__agree-text {
+      width: 100%;
+    }
+    .help-form__btn {
+      padding: 15px;
+      width: 100%;
+    }
+    
+  }

@@ -1,0 +1,192 @@
+.chess-preview {
+    background-color: #00093c;
+    margin-bottom: 100px;
+  }
+  
+  .chess-preview__inner {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-between;
+  }
+  
+  .chess-school {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 11px;
+  }
+  .form-title {
+    color: #000;
+  }
+  .chess-school__title {
+    font-size: 42px;
+  }
+  
+  .chess-school__subtitle {
+    font-size: 18px;
+    position: relative;
+  }
+  
+  .chess-school__subtitle::before {
+    content: "";
+    position: absolute;
+    background-image: url("/public/assets/circle-img.svg");
+    background-repeat: no-repeat;
+    width: 125px;
+    height: 125px;
+    left: -110px;
+    top: -60px;
+  }
+  
+  .chess-school__periods,
+  .course-content__period {
+    display: flex;
+    gap: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  
+  .chess-school__term,
+  .course-content__term {
+    max-width: 130px;
+    border-top: 3px solid transparent;
+    background: linear-gradient(#00093c, #00093c) padding-box,
+      linear-gradient(90deg, #f7941d 0%, #27aae1 100%) border-box;
+  }
+  
+  .chess-school__mode,
+  .course-content__mode {
+    border-top: 3px solid transparent;
+    background: linear-gradient(#00093c, #00093c) padding-box,
+      linear-gradient(90deg, #f7941d 0%, #27aae1 100%) border-box;
+  }
+  
+  .chess-school__cost,
+  .chess-school__ad {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .chess-school__descr {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .chess-school__descr::after {
+    position: absolute;
+    content: "";
+    background-image: url("/public/assets/cross-img.svg");
+    width: 130px;
+    height: 130px;
+    z-index: 1;
+    right: -90px;
+    top: -50px;
+  }
+  
+  .chess-school__btn {
+    background-color: #f7941d;
+    margin-top: 12px;
+    padding: 13px 20px;
+    max-width: 286px;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+  }
+  .chess-school__btn:hover,
+  .chess-sign__btn:hover,
+  .course-content__btn:hover {
+    cursor: pointer;
+    background-color: #ffa600;
+  }
+  .chess-goals {
+    margin-bottom: 100px;
+  }
+
+  @media (max-width: 1400px) {
+    .chess-school__subtitle::before {
+      left: auto;
+      right: 0;
+      top: -90px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .chess-preview__img {
+      max-width: 45%;
+    }
+    .chess-school__title,
+    .chess-school__cost,
+    .chess-school__ad {
+      font-size: 30px;
+    }
+    .chess-advantages__list {
+      flex-wrap: wrap;
+    }
+    .chess-advantages__descr {
+      font-size: 16px;
+    }
+    .chess-advantages__img {
+      max-width: 40px;
+      height: 50px;
+    }
+    .chess-advantages__item {
+      justify-content: normal;
+      max-width: 200px;
+    }
+  }
+  
+  @media (max-width: 1070px) {
+    .chess-school__subtitle::before,
+    .chess-school__descr::after {
+      display: none;
+    }
+    .chess-school__descr,
+    .chess-sign__rec {
+      font-size: 14px;
+    }
+    .chess-goals__list {
+      gap: 20px;
+    }
+    .chess-school__title,
+    .chess-school__cost,
+    .chess-school__ad {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 900px) {
+    .chess-preview__inner {
+      flex-wrap: wrap-reverse;
+    }
+    .chess-preview__img {
+      width: 100%;
+      align-self: auto;
+      max-width: none;
+      margin-top: 30px;
+    }
+
+    .chess-school__periods {
+      flex-wrap: wrap;
+    }
+    .chess-goals__list {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .chess-advantages__descr {
+      width: 100%;
+    }
+    .chess-goals__item,
+    .chess-advantages__descr {
+      max-width: none;
+    }
+  }
+  @media (max-width: 500px) {
+    .chess-sign__text {
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+  }

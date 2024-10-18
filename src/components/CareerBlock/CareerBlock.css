@@ -1,0 +1,81 @@
+body {
+    background-color: #f6f7f9;
+}
+.vacancies {
+    margin: 50px 0 100px 0;
+  }
+.vacancies-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.vacancies-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+.vacancies-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+}
+.choose-course__block-types {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    width: 100%;
+    max-width: 860px;
+}
+  
+.vac-block {
+    margin: 50px 0;
+  }
+  
+  .vac-block__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .vac-block__title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .vac-vlock__subtitle,
+  .vac-block__link {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .vac-block__descr {
+    max-width: 980px;
+    margin-top: 10px;
+  }
+  .vac-block__list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .vac-block__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    background: #fff;
+    border-radius: 6px;
+  }
+  
+  .vac-block__item:hover {
+    box-shadow: 3px 4px 21px 0px rgba(39, 170, 225, 0.27);
+    cursor: pointer;
+  }
+
+
+
+  @media (max-width: 500px) {
+    .vac-vlock__subtitle,
+    .vac-block__link,
+    .vac-block__city {
+      font-size: 14px;
+    }
+  }

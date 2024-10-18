@@ -1,0 +1,123 @@
+.prev-info {
+    background-image: url("/public/assets/prev-girl.png");
+    background-position: top center;
+    background-size: cover;
+    height: 480px;
+    margin-bottom: 100px;
+  }
+  
+  .prev-info__inner {
+    display: flex;
+    height: 100%;
+    max-width: fit-content;
+  }
+  
+  .prev-info__title,
+  .prev-info__subt {
+    position: relative;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+  .prev-info__textblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .prev-info__title::before {
+    content: "";
+    position: absolute;
+    background-image: url("/public/assets/cross-img.svg");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+    left: -80px;
+    top: -55px;
+  }
+  
+  .prev-info__subt::after {
+    content: "";
+    position: absolute;
+    background-image: url("/public/assets/circle-img.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    right: -40px;
+    top: 45px;
+  }
+  
+  .prev-info__text {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  
+  .prev-info__text::before {
+    position: absolute;
+    content: "";
+    background-image: url("/public/assets/line-img.svg");
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 130px;
+    left: -70px;
+    top: 15px;
+  }
+
+
+  @media (max-width: 1400px) {
+    .prev-info__title::before {
+      left: 0;
+      top: -100px;
+    }
+    .prev-info__text::before {
+      left: 0;
+      top: 0;
+    }
+  }
+
+  
+  @media (max-width: 700px) {
+    .prev-info__text {
+      font-size: 16px;
+    }
+    .prev-info__subt::after {
+      display: none;
+    }
+    .prev-info__title,
+    .prev-info__subt {
+      font-size: 21px;
+    }
+  }
+  @media (max-width: 600px) {
+    .prev-info {
+      height: 300px;
+      margin-bottom: 30px;
+    }
+    .prev-info__title::before {
+      left: auto;
+      top: auto;
+    }
+    .prev-info__text::before {
+      height: 70px;
+    }
+  }
+  @media (max-width: 500px) {
+    .prev-info {
+      height: 200px;
+    }
+    .prev-info__title,
+    .prev-info__subt {
+      font-size: 14px;
+    }
+    .prev-info__title::before,
+    .prev-info__text::before {
+      display: none;
+    }
+    .prev-info__text {
+      font-size: 12px;
+      max-width: 60%;
+    }
+  }

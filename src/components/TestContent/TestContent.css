@@ -1,0 +1,38 @@
+.test-block {
+    margin: 30px 0 50px;
+}
+.test-block__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.test-block__title {
+    font-size: 20px;
+    text-align: center;
+}
+.test-block__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.test-block__quest {
+    font-weight: 500;
+}
+
+.test-block__btn {
+    border: none;
+    font-size: inherit;
+    padding: 15px 50px;
+    margin: 30px auto;
+    background-color: #f7941d;
+    text-align: center;
+    color: #fff;
+}
+.test-block__btn:hover {
+    cursor: pointer;
+}
+.test-block__radio {
+    display: flex;
+    gap: 10px;
+}

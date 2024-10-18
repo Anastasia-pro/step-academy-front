@@ -1,0 +1,46 @@
+.chess-goals {
+    margin-bottom: 100px;
+  }
+  
+  .chess-goals__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .chess-goals__item {
+    max-width: 250px;
+  }
+  
+  .chess-goals__img {
+    width: 26px;
+    height: 41px;
+  }
+  
+  .chess-goals__list-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 13px 0;
+  }
+  
+  .chess-goals__list-text {
+    font-weight: 400;
+  }
+
+  @media (max-width: 1070px) {
+    .chess-goals__list {
+      gap: 20px;
+    }
+  }
+  @media (max-width: 900px) {
+    .chess-goals__list {
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 600px) {
+    .chess-goals__item {
+      max-width: none;
+    }
+  }
+
+  

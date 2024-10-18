@@ -1,0 +1,134 @@
+.course-content {
+    margin: 100px 0;
+  }
+  
+  .course-content__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 980px;
+  }
+  
+  .course-content__term,
+  .course-content__mode {
+    color: #00093c;
+    border-top: 3px solid transparent;
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(90deg, #f7941d 0%, #27aae1 100%) border-box;
+  }
+  
+  .course-content__title {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+  }
+  
+  .course-content__title::after {
+    position: absolute;
+    content: "";
+    background-image: url("/public/assets/chess-img.svg");
+    width: 125px;
+    height: 120px;
+    background-repeat: no-repeat;
+    right: -90px;
+    top: -15px;
+  }
+  
+  .course-content__text {
+    max-width: 85%;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .course-content__text::after {
+    position: absolute;
+    content: "";
+    background-image: url("/public/assets/circle-img.svg");
+    width: 125px;
+    height: 124px;
+    background-repeat: no-repeat;
+    right: -100px;
+    top: 50px;
+  }
+  
+  .course-content__term {
+    max-width: 130px;
+  }
+  
+  .course-content__cost {
+    font-size: 28px;
+    font-weight: 700;
+    color: #00093c;
+    margin: 30px 0;
+    position: relative;
+  }
+  
+  .course-content__cost::after {
+    position: absolute;
+    content: "";
+    background-image: url("/public/assets/cross-img.svg");
+    width: 130px;
+    height: 130px;
+    background-repeat: no-repeat;
+    right: -55px;
+    top: -40px;
+  }
+  
+  .course-content__btn {
+    background-color: #f7941d;
+    padding: 13px 20px;
+    color: #fff;
+    align-self: start;
+    text-align: center;
+  }
+  
+
+
+  @media (max-width: 1200px) {
+    .course-content__title {
+        font-size: 30px;
+    }
+    .course-content__text {
+        font-size: 16px;
+    }  
+    .course-content__title::after,
+  .course-content__text::after,
+  .course-content__cost::after {
+    right: 0;
+  }
+  }
+  
+  @media (max-width: 1070px) {
+    .course-content__text {
+        font-size: 14px;
+        max-width: 60%;
+    }
+    .course-content__title,
+    .course-content__cost {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .course-content__text::after {
+        top: 150px;
+    }
+    .course-content__period {
+        flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 700px) {
+    .course-content__text::after {
+        display: none;
+      }
+  }
+  @media (max-width: 400px) {
+    .course-content__title::after,
+    .course-content__cost::after {
+      display: none;
+    }
+    .course-content__text {
+      max-width: none;
+    }
+  }

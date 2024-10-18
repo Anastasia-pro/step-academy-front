@@ -1,0 +1,62 @@
+.chess-advantages {
+  margin-bottom: 100px;
+}
+.chess-advantages__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .chess-advantages__title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .chess-advantages__descr {
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 75%;
+  }
+  
+  .chess-advantages__list {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .chess-advantages__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .chess-advantages__img {
+    max-width: 40px;
+    margin-bottom: 10px;
+  }
+
+  
+
+  @media (max-width: 1200px) {
+    .chess-advantages__list {
+        flex-wrap: wrap;
+      }
+      .chess-advantages__descr {
+        font-size: 16px;
+      }
+      .chess-advantages__img {
+        max-width: 40px;
+        height: 50px;
+      }
+      .chess-advantages__item {
+        justify-content: normal;
+        max-width: 200px;
+      }
+    }
+
+ @media (max-width: 600px) {
+    .chess-advantages__descr {
+     width: 100%;
+     max-width: none;
+     }
+}    

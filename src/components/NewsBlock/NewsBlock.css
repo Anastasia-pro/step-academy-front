@@ -1,0 +1,253 @@
+.info-block {
+    margin-top: 82px;
+  }
+  
+  .info-block__inner {
+    border-radius: 20px;
+    background: #f7bc75;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+  }
+  
+  .info-block__opendors {
+    display: flex;
+    gap: 0 52px;
+    align-items: center;
+  }
+  
+  .opendoors-date__title {
+    font-size: 86px;
+    font-weight: 700;
+  }
+  
+  .opendoors-date__text {
+    font-size: 28px;
+  }
+  
+  .info-block__opendoors-desc {
+    max-width: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px 0;
+  }
+  
+  .opendoors-desc__title {
+    font-size: 36px;
+  }
+  
+  .opendoors-desc__text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .info-block__opendoors-btn {
+    border-radius: 10px;
+    border: 2px solid #000;
+    width: 220px;
+    height: 60px;
+    text-align: center;
+    padding: 18px 0;
+  }
+  .info-block__opendoors-btn:hover,
+  .news-block__progs-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  .news-block {
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .news-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .news-block__inner {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .news-block__progs {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    max-height: 460px;
+    text-align: center;
+    align-items: center;
+    gap: 35px 0;
+    padding: 30px 40px;
+    border-radius: 20px;
+    background: #c5ddff;
+  }
+  
+  .news-block__progs__img {
+    width: 128px;
+    height: 128px;
+  }
+  
+  .news-block__progs-btn {
+    margin-top: 18px;
+    border: 2px solid #00093c;
+    padding: 12px 60px;
+    border-radius: 10px;
+  }
+  
+  .news-block__compain {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .news-block__papers,
+  .news-block__it {
+    border-radius: 20px;
+    background: #b8efcf;
+    padding: 33px;
+    text-align: center;
+    width: 48%;
+    max-width: 330px;
+    max-height: 220px;
+  }
+  
+  .news-block__papers-title,
+  .news-block__it-title {
+    margin-top: 45px;
+  }
+  
+  .news-block__it {
+    background: #ffeef6;
+  }
+  
+  .news-block__try {
+    max-width: 680px;
+    height: 220px;
+    border-radius: 20px;
+    background: #ffe38e;
+    display: flex;
+    padding: 60px 50px;
+    flex-direction: column;
+  }
+  
+  .news-block__try-title {
+    position: relative;
+    margin-left: 128px;
+  }
+  
+  .news-block__try-title::before {
+    position: absolute;
+    content: "";
+    background-image: url("/public/assets/try-img.svg");
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 128px;
+    left: -128px;
+  }
+  
+  .news-block__try-text {
+    margin-left: 128px;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  
+  .info-block__inner:hover,
+  .news-block__progs:hover,
+  .news-block__papers:hover,
+  .news-block__it:hover,
+  .news-block__try:hover {
+    cursor: pointer;
+    box-shadow: 3px 4px 21px 0px rgba(39, 170, 225, 0.27);
+    transition: all 0.3s;
+  }
+  @media (max-width: 1040px) {
+    .news-block__try-text {
+      font-size: 12px;
+    }
+    .info-block__opendoors-btn {
+      width: auto;
+      padding: 18px 25px;
+  }
+  .news-block__papers,
+   .news-block__it {
+    width: 47%;
+  }
+  }
+  
+  @media (max-width: 900px) {
+    .news-block__inner {
+      flex-wrap: wrap;
+    }
+    .news-block__progs {
+      max-width: none;
+    }
+    .news-block__papers,
+    .news-block__it,
+    .news-block__try,
+    .help-form__name {
+      width: 100%;
+      max-width: none;
+    }
+    .info-block__opendors {
+      gap: 0 35px;
+    }
+    .opendoors-desc__title {
+      font-size: 32px;
+    }
+    .opendoors-desc__text,
+    .news-block__try-text {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 700px) {
+    .info-block__opendors {
+      flex-wrap: wrap;
+    }
+    .info-block__opendoors-desc {
+      max-width: none;
+      width: 70%;
+    }
+    .info-block__opendoors-btn {
+      margin-top: 35px;
+    }
+  }
+  @media (max-width: 500px) {
+    
+    .choose-course__types-item {
+      font-size: 12px;
+      padding: 10px 15px;
+    }
+    .info-block__opendoors-desc {
+      margin-top: 35px;
+    }
+    .news-block__try {
+      height: auto;
+    }
+    .news-block__progs {
+      max-height: none;
+    }
+    .news-block__papers,
+    .news-block__it,
+    .news-block__try {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .news-block__papers,
+    .news-block__it,
+    .news-block__try {
+      width: 92%;
+    }
+    .news-block__try-title::before {
+      left: -115px;
+    }
+    .news-block__try-title {
+      margin-left: 105px;
+    }
+    .news-block__try-text {
+      font-size: 13px;
+      margin-left: 107px;
+      margin-top: 10px;
+    }
+  }

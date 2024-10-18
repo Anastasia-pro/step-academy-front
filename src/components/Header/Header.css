@@ -1,0 +1,133 @@
+select {
+    border: none;
+  }
+  .burger {
+      display: none;
+      width: 25px;
+      height: 2px;
+      background-color: #00093c;
+      position: relative;
+    }
+    .burger::before,
+    .burger::after {
+      position: absolute;
+      content: "";
+      width: 25px;
+      height: 2px;
+      top: 4px;
+      background-color: #00093c;
+    }
+    .burger::after {
+      top: 8px;
+    }
+    .burger:hover {
+      cursor: pointer;
+    }
+    .header {
+      padding: 20px 0;
+      font-weight: 500;
+      max-height: 110px;
+      
+    }
+    
+    .header-inner {
+      display: flex;
+      align-items: center;
+      gap: 35px;
+    }
+    
+    .header-nav__list {
+      display: flex;
+      gap: 42px;
+      align-items: center;
+    }
+    
+    .header-nav__cities {
+      position: relative;
+      margin-left: 23px;
+    }
+    
+    .header-nav__cities::before {
+      position: absolute;
+      content: "";
+      background-image: url('/public/assets/place.svg');
+      background-repeat: no-repeat;
+      width: 20px;
+      height: 20px;
+      left: -23px;
+    }
+    
+    .header-nav__login:hover,
+    .header-nav__logout:hover,
+    .header-nav__register:hover {
+      outline: 2px solid #00093c;
+      padding: 5px;
+    }
+    
+    @media (max-width: 1200px) {
+      .header-inner {
+        gap: 55px;
+      }
+      .header-nav {
+        width: 100%;
+      }
+      .header-nav__list {
+        gap: 0;
+        justify-content: space-between;
+      }
+      .header-nav__login:hover,
+      .header-nav__logout:hover,
+      .header-nav__register:hover {
+        outline: none;
+      }
+    }
+    @media (max-width: 1040px) {
+      .header-inner {
+        gap: 40px;
+        font-size: 14px;
+      }
+    }
+  
+    @media (max-width: 900px) {
+      .header-inner {
+        font-size: 12px;
+        justify-content: space-between;
+      }
+      .live {
+        transform: translate(-100%, -130%);
+      }
+      .header-nav {
+        width: 100%;
+        position: absolute;
+        background: #fff;
+        top: 94px;
+        padding: 30px;
+        z-index: 1;
+        left: 0;
+    }
+      .header-nav__list {
+        gap: 25px;
+        flex-direction: column;
+      }
+      .burger {
+        display: block;
+      }
+      .header-nav__list {
+        gap: 25px;
+        flex-direction: column;
+      }
+      .burger {
+        display: block;
+      }
+      .header-nav__user::before {
+        top: -3px;
+      }
+    }
+    @media (max-width: 500px) {
+      .header-logo {
+        width: 30%;
+      }
+      .header-nav {
+        top: 65px;
+      }
+    }

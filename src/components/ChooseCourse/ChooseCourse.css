@@ -1,0 +1,196 @@
+.choose-course {
+    padding-bottom: 100px;
+  }
+  
+  .choose-course__inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .choose-course__window::before {
+    position: absolute;
+    content: "";
+    background-image: url("/public/assets/owl.png");
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 190px;
+    left: -10px;
+    top: 170px;
+    z-index: 1;
+  }
+  
+  .choose-course__owl {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 260px;
+    max-height: 190px;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(90deg, #f7941d 0%, #27aae1 100%) border-box;
+  }
+  
+  .choose-course__owl::after,
+  .choose-course__owl::before {
+    content: "";
+    position: absolute;
+    border: 17px solid transparent;
+    border-top: 10px solid green;
+    bottom: -29px;
+    right: 75px;
+  }
+  
+  .choose-course__owl::after {
+    border-top: 13px solid white;
+  }
+  
+  .choose-course__owl-title,
+  .choose-course__owl-subt {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .choose-course__owl-subt {
+    font-weight: 500;
+  }
+  
+  .choose-course__block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 55px;
+    width: 100%;
+    max-width: 860px;
+  }
+  
+  .choose-course__block-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .choose-course__block-item {
+    padding-bottom: 10px;
+  }
+  
+  .choose-course__block-item:hover {
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(90deg, #f7941d 0%, #27aae1 100%) border-box;
+  }
+  
+  .child,
+  .adults,
+  .teen {
+    position: relative;
+    margin-left: 60px;
+  }
+  
+  .child::before,
+  .teen::before,
+  .adults::before {
+    position: absolute;
+    content: "";
+    background-image: url("/public/assets/children-img.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    left: -60px;
+    top: -10px;
+  }
+  
+  .teen::before {
+    background-image: url("/public/assets/teen-img.svg");
+  }
+  
+  .adults::before {
+    background-image: url("/public/assets/adults-img.svg");
+  }
+  
+  .choose-course__block-title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .choose-course__block-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #4f4f4f;
+  }
+  
+  .choose-course__block-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    width: 100%;
+    max-width: 860px;
+  }
+  
+  .choose-course__types-item {
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(90deg, #f7941d 0%, #27aae1 100%) border-box;
+  }
+  .choose-course__types-item:hover {
+    box-shadow: 3px 4px 21px 0px rgba(39, 170, 225, 0.27);
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 1200px) {
+    .choose-course__block {
+      gap: 40px;
+    }
+    .choose-course__inner::before {
+      left: 0;
+    }
+}
+  
+  @media (max-width: 900px) {
+    .choose-course {
+      padding-bottom: 0;
+    }
+  }
+  @media (max-width: 800px) {
+   
+  }
+  @media (max-width: 700px) {
+    .choose-course__inner {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .choose-course__inner::before {
+      display: none;
+    }
+    .choose-course__owl {
+      display: none;
+    }
+  }
+  @media (max-width: 500px) {
+    .choose-course__types-item {
+      font-size: 12px;
+      padding: 10px 15px;
+    }
+    .child,
+    .adults,
+    .teen {
+      margin-top: 30px;
+      margin-left: 0;
+    }
+    .child::before,
+    .teen::before,
+    .adults::before {
+      left: -1px;
+      top: -50px;
+    }
+  }
+  

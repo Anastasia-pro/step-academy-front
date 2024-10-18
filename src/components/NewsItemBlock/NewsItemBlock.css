@@ -1,0 +1,114 @@
+.all-news {
+    margin: 50px 0;
+  }
+  .all-news__inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .all-news__title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .all-news__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .all-news__item {
+    max-width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  .all-news__item {
+    cursor: pointer;
+    box-shadow: 3px 4px 21px 0px rgba(39, 170, 225, 0.27);
+    transition: all 0.3s;
+  }
+  .all-news__descr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  .all-news__name {
+    font-size: 18px;
+    color: #00093c;
+    font-weight: 700;
+  }
+  .all-news__btn {
+    color: #00093c;
+    position: relative;
+    margin-top: 20px;
+  }
+  .all-news__btn::after {
+    content: "";
+    position: absolute;
+    background-image: url("/public/assets/arrow.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 20px;
+    left: 100px;
+    top: 2px;
+  }
+  .all-news__text {
+    display: flex;
+    flex-basis: 75px;
+  }
+  @media (max-width: 1400px) {
+    .all-news__list {
+      justify-content: space-evenly;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .all-news__descr {
+      margin-top: 0;
+    }
+    .all-news__item {
+      max-width: 320px;
+      height: 440px;
+    }
+  }
+  @media (max-width: 700px) {
+    .all-news__title {
+      font-size: 30px;
+    }
+    .all-news__item {
+      max-width: 260px;
+      height: 400px;
+    }
+    .all-news__descr {
+      gap: 10px;
+    }
+    .all-news__name {
+      font-size: 16px;
+    }
+    .all-news__text {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 600px) {
+    .all-news__item {
+      max-width: none;
+      width: 100%;
+      height: 100%;
+    }
+    .all-news__descr {
+      gap: 20px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .news-block__papers,
+    .news-block__it,
+    .news-block__try {
+      width: 92%;
+    }
+  }
