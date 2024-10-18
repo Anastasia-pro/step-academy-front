@@ -11,7 +11,7 @@ export default function ProgramsContent() {
   const {isAuth} = useAuth();
   const [rangeval, setRangeval] = useState(1);
   const [typeKeyword, setTypeKeyword] = useState("");
-  const [spectrKeyword, setSpectrKeyword] = useState("");
+  const [spectrKeyword] = useState("");
   const [filteredItems, setFilteredItems] = useState(programData);
 
   const handleFilter = () => {
