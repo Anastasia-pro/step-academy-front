@@ -6,10 +6,10 @@ export const fetchLogin = createAsyncThunk('https://step-backend.onrender.com/lo
   return data;
 });
 
-export const fetchLoginMe = createAsyncThunk('login/fetchLoginMe', async () => {
+export const fetchLoginMe = createAsyncThunk(`${process.env.REACT_APP_API_URL}/login/fetchLoginMe`, async () => {
   try {
     const token = sessionStorage.getItem('token');
-    const { data } = await axios.get('/me', {
+    const { data } = await axios.get(`${process.env.REACT_APP_API_URL}/me`, {
       headers: {
         Authorization: token,
       },
@@ -21,8 +21,8 @@ export const fetchLoginMe = createAsyncThunk('login/fetchLoginMe', async () => {
   }
 });
 
-export const fetchRegister = createAsyncThunk('login/fetchRegister', async (params) => {
-  const { data } = await axios.post('/reg', params);
+export const fetchRegister = createAsyncThunk(`${process.env.REACT_APP_API_URL}/login/fetchRegister`, async (params) => {
+  const { data } = await axios.post(`${process.env.REACT_APP_API_URL}/reg`, params);
   return data;
 });
 
