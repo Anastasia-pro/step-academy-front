@@ -1,8 +1,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-export const fetchLogin = createAsyncThunk('login/fetchLogin', async (params) => {
-  const { data } = await axios.post('/login', params);
+export const fetchLogin = createAsyncThunk('https://step-backend.onrender.com/login/fetchLogin', async (params) => {
+  const { data } = await axios.post('https://step-backend.onrender.com/login', params);
   return data;
 });
 
