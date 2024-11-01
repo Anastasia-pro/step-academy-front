@@ -69,7 +69,7 @@ export default function ProgramsContent() {
                   <input type="range" name="filterPeriod" id="" min="1" max="24" step="1" value={rangeval}
                     className="main-filters__diapason"
                     onChange={(event) => setRangeval(event.target.value)} />
-                  <p>The range value is {rangeval}</p>
+                  <p>Выбранная длительность (в месяцах): {rangeval}</p>
                 </form>
                 <button type="submit" className="help-form__btn btn-filter" onClick={handleFilter}>Применить</button>
               </div>
@@ -94,7 +94,7 @@ export default function ProgramsContent() {
                     </Suspense>
                 </ul>
                 ) : (
-                  <p>Нет совпадений</p>
+                  <p>Нет совпадений. Выберите другие критерии поиска.</p>
                 )}
               </div>
             </div>
