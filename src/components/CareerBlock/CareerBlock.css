@@ -41,25 +41,8 @@ body {
     font-weight: 700;
   }
   
-  .vac-vlock__subtitle,
-  .vac-block__link {
-    font-size: 18px;
-    font-weight: 600;
-  }
-  .vac-block__descr {
-    max-width: 980px;
-    margin-top: 10px;
-  }
-  .vac-block__list {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
   .vac-block__item {
     display: flex;
-    justify-content: space-between;
     padding: 17px;
     background: #fff;
     border-radius: 6px;
@@ -69,7 +52,38 @@ body {
     box-shadow: 3px 4px 21px 0px rgba(39, 170, 225, 0.27);
     cursor: pointer;
   }
+  
+  .vac-vlock__subtitle,
+  .vac-block__link {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .vac-block__descr {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .vac-block__text {
+    max-width: 980px;
+    margin-top: 10px;
+  }
+  .vac-block__list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
+  .vac-block__btn {
+    max-width: 150px;
+    font-size: 14px;
+    background-color: #f7941d;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 30px;
+  }
 
 
   @media (max-width: 500px) {
