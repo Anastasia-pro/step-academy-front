@@ -11,6 +11,15 @@ export default function EventsBlock() {
     const { isAuth } = useAuth();
     const [modalActive, setModalActive] = useState(false)
 
+    const colorClasses = [
+        'events-list__item--blue',
+        'events-list__item--pink',
+        'events-list__item--green',
+        'events-list__item--yellow',
+        'events-list__item--purple',
+        'events-list__item--orange'
+    ];
+
     return(
         <main>
             <section className="info-block">
@@ -46,9 +55,14 @@ export default function EventsBlock() {
             <div className="events-block__inner">
                <ul className="events-list">
                 {eventsItem.map((item, index)=> (
-                    <Link key={index} className="events-list__item" onClick={() => setModalActive(true)}>
+                    <Link key={index} 
+                        className={`events-list__item ${colorClasses[index % colorClasses.length]}`}
+                        onClick={() => setModalActive(true)}>
                         <p className="events-item__type">{item.type}</p>
-                        <p className="events-item__title">{item.title}</p> 
+                        <div className="events-item__cont">
+                            <img className="events-item__img" src={item.img} alt="events icon"/>
+                            <p className="events-item__title">{item.title}</p> 
+                        </div>
                         <span className="events-item__text">{item.text}</span>
                         <p className="events-item__date">{item.date}</p>
                     </Link>
