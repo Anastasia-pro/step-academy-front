@@ -31,18 +31,18 @@ import useAuth from "../../hooks/AuthChecker";
             id="menu"
           >
             <ul className="header-nav__list">
-              <li className="header-nav__item">
+              <li className="header-nav__item nav-effect">
                 <Link to="/programs" className="header-nav__link">
                   {" "}
                   Все курсы
                 </Link>
               </li>
-              <li className="header-nav__item">
+              <li className="header-nav__item nav-effect">
                 <Link to="/events" className="header-nav__link">
                   Мероприятия
                 </Link>
               </li>
-              <li className="header-nav__item">
+              <li className="header-nav__item nav-effect">
                 <Link
                   onClick={() => setModalActive(true)}
                   className="header-nav__link"
@@ -53,12 +53,12 @@ import useAuth from "../../hooks/AuthChecker";
               <Modal active={modalActive} setActive={setModalActive}>
                 <p>Page under construction. Please, try later.</p>
               </Modal>
-              <li className="header-nav__item">
+              <li className="header-nav__item nav-effect">
                 <Link to="/career" className="header-nav__link">
                   Карьера
                 </Link>
               </li>
-              <li className="header-nav__item">
+              <li className="header-nav__item nav-effect">
                 <a href="tel:88009503398" className="header-nav__link">
                   +375 (25) 950-33-98{" "}
                 </a>
