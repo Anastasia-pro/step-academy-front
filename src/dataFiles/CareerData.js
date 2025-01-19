@@ -42,60 +42,60 @@ export const vacDescData = [
         id: 1,
         vacTitle: 'Преподаватель-маркетолог',
         vacSubt: 'Сейчас мы стремительно растем, поэтому ищем нам очень нужен преподаватель-маркетолог!',
-        vacDesc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.'
+        vacDesc : 'Ищем талантливого преподавателя, который сможет делиться актуальными знаниями в области маркетинга. Ваша задача — обучать студентов эффективным стратегиям продвижения, анализу рынка и работе с инструментами интернет-рекламы. Если вы увлечены маркетингом и умеете объяснять сложное простым языком — присоединяйтесь!'
     },
     {
         id: 2,
         vacTitle: 'Тестировщик',
         vacSubt: 'Сейчас мы стремительно растем, поэтому ищем нам очень нужен тестировщик!',
-        vacDesc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.'
+        vacDesc : 'Нам нужен специалист, который будет заботиться о качестве нашего программного обеспечения. Вы будете тестировать новые функциональности, находить и документировать баги, а также помогать разработчикам улучшать наш продукт. Если вы внимательны к деталям и увлечены качеством — мы ждем вас!'
     },
     {
         id: 3,
         vacTitle: 'Web-разработчик',
         vacSubt: 'Сейчас мы стремительно растем, поэтому ищем нам очень нужен Web-разработчик!',
-        vacDesc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.'
+        vacDesc : 'Ищем web-разработчика, который поможет нам создать удобный, быстрый и стильный интерфейс для наших пользователей. Вам предстоит работать с современными технологиями, создавать адаптивные сайты и развивать нашу платформу. Если вы любите кодить и хотите делать мир удобнее — приходите!'
     },
     {
         id: 4,
         vacTitle: 'Soft-skills преподаватель',
         vacSubt: 'Сейчас мы стремительно растем, поэтому ищем нам очень нужен Soft-skills преподаватель!',
-        vacDesc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.'
+        vacDesc : 'Ваши знания в области коммуникаций, эмоционального интеллекта и работы в команде помогут нашим студентам достичь новых высот. Вы будете учить их уверенно выступать, грамотно общаться и работать в любых условиях. Мы ищем увлеченного человека, который готов делиться опытом и вдохновлять!'
     },
     {
         id: 5,
         vacTitle: 'Дизайнер',
         vacSubt: 'Сейчас мы стремительно растем, поэтому ищем нам очень нужен дизайнер!',
-        vacDesc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.'
+        vacDesc : 'Нужен креативный дизайнер, который поможет нашей платформе выглядеть ярко и современно. Ваши задачи включают создание визуального контента, разработку интерфейсов и графики для различных проектов. Если у вас развито чувство стиля и вы любите творить — мы ждем вас!'
     },
     {
         id: 6,
         vacTitle: '3D-разработчик',
         vacSubt: 'Сейчас мы стремительно растем, поэтому ищем нам очень нужен 3D-разработчик',
-        vacDesc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.'
+        vacDesc : 'Мы расширяем свои горизонты в 3D-пространстве и ищем талантливого разработчика. Вы будете создавать интерактивные 3D-модели, визуализации и прототипы для нашей платформы. Если вы разбираетесь в движках и технологиях 3D, а также любите инновации — добро пожаловать!'
     },
     {
         id: 7,
         vacTitle: 'Учитель по шахматам',
         vacSubt: 'Сейчас мы стремительно растем, поэтому ищем нам очень нужен учитель по шахматам!',
-        vacDesc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.'
+        vacDesc : 'Ищем увлеченного шахматного учителя, который сможет развивать стратегическое мышление у наших студентов. Вы будете обучать основам игры, тактике и продвинутым стратегиям. Если вы любите шахматы и хотите поделиться своей страстью — это ваша вакансия!'
     },
     {
         id: 8,
         vacTitle: 'Учитель блогинга',
         vacSubt: 'Сейчас мы стремительно растем, поэтому ищем нам очень нужен учитель блогинга!',
-        vacDesc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.'
+        vacDesc : 'Если вы знаете, как создавать интересный контент, набирать аудиторию и продвигать свои идеи в соцсетях — нам нужен именно вы! Вы будете обучать студентов тонкостям блогинга: от создания концепции до анализа статистики. Вдохновите их на создание успешных проектов!'
     },
     {
         id: 9,
         vacTitle: 'Преподаватель английского языка(В2+)',
         vacSubt: 'Сейчас мы стремительно растем, поэтому ищем нам очень нужен преподаватель английского языка(В2+)!',
-        vacDesc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.'
+        vacDesc : 'Мы ищем энергичного преподавателя английского, который поможет нашим студентам достичь уровня уверенного общения. Вы будете работать с разными аспектами языка: грамматикой, лексикой и разговорной практикой. Если у вас есть опыт преподавания и вы любите обучать — присоединяйтесь к нам!'
     },
     {
         id: 10,
         vacTitle: 'Робототехник',
         vacSubt: 'Сейчас мы стремительно растем, поэтому ищем нам очень нужен робототехник!',
-        vacDesc : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.'
+        vacDesc : 'Ищем специалиста по робототехнике, который будет обучать наших студентов создавать и программировать умные устройства. Вы будете делиться знаниями о современных технологиях, сенсорах и алгоритмах. Если вы увлечены робототехникой и хотите воспитать новое поколение инженеров — мы ждем вас!'
     },
 ]

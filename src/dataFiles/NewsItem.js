@@ -1,189 +1,191 @@
 export const newsItem = [
     {
-        id: 1,
-        pic: 'assets/news-img.png',
-        title: 'Вы не поверите!',
-        description: 'На все курсы скидка 50%! Успей оформить и забрать своё предназначение!',
-        link: 'Подробнее'
+      id: 1,
+      pic: 'assets/news-img.png',
+      title: 'Открываем новые горизонты',
+      description: 'Новый курс уже доступен!',
+      link: 'Подробнее'
     },
     {
-        id: 2,
-        pic: 'assets/news2-img.png',
-        title: 'Только для Вас!',
-        description: 'Заберите курс по программированию по фиксированной цене до марта 2025!',
-        link: 'Подробнее'
+      id: 2,
+      pic: 'assets/news2-img.png',
+      title: 'Праздничная скидка',
+      description: 'Сниженные цены на все курсы',
+      link: 'Подробнее'
     },
     {
-        id: 3,
-        pic: 'assets/news-img.png',
-        title: 'Лояльный профессор',
-        description: 'Студентам - скидки до 70% в период весенних сессий! Количество ограничено!',
-        link: 'Подробнее'
+      id: 3,
+      pic: 'assets/news-img.png',
+      title: 'Наша школа в топе',
+      description: 'Новое признание в мире онлайн-образования',
+      link: 'Подробнее'
     },
     {
-        id: 4,
-        pic: 'assets/news2-img.png',
-        title: 'Детям-дорогу',
-        description: 'Акция! Курс "Блогинг" для школьников начальных классов всего за 150$!',
-        link: 'Подробнее'
+      id: 4,
+      pic: 'assets/news2-img.png',
+      title: 'Запуск нового курса',
+      description: 'Основы программирования для детей',
+      link: 'Подробнее'
     },
     {
-        id: 5,
-        pic: 'assets/news-img.png',
-        title: 'Новые вершины',
-        description: 'Встреча с представителями Google, состоится 14 апреля 2025 года.',
-        link: 'Подробнее'
-    }, {
-        id: 6,
-        pic: 'assets/news2-img.png',
-        title: 'Трудоустройство!',
-        description: 'Возможность трудоустройства после курсов обсуждается лично.',
-        link: 'Подробнее'
+      id: 5,
+      pic: 'assets/news-img.png',
+      title: 'Родительский клуб',
+      description: 'Участвуйте в жизни школы',
+      link: 'Подробнее'
     },
-
-]
-
+    {
+      id: 6,
+      pic: 'assets/news2-img.png',
+      title: 'Путешествие в мир шахмат',
+      description: 'Уникальный курс по математике',
+      link: 'Подробнее'
+    }
+  ]
 
 export const newsText = [
-    {
-        id: 1,
-        title: 'Заголовок новости',
-        date: '16 ноября 2023',
-        subtext: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst.',
-        pic: '/assets/news-img.png',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst. Vestibulum tristique porta aliquam. Suspendisse blandit et sapien sit amet sagittis. Praesent tristique ante sed lacinia congue. Etiam egestas mauris at arcu gravida interdum. Aliquam feugiat risus lacus, ac rutrum dolor porttitor vitae. Etiam porta, nunc sit amet pellentesque posuere, risus nulla sollicitudin enim, commodo bibendum nulla lacus et lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-    },
+  {
+    id: 1,
+    title: "Открываем новые горизонты: начался набор на зимний курс!",
+    date: "16 ноября 2023",
+    subtext:
+      "Новый курс уже доступен! Развивайте навыки будущего вместе с нами",
+    pic: "/assets/news-img.png",
+    text: "Мы рады объявить о старте зимнего курса! Уникальная программа, включающая интерактивные занятия, креативные проекты и современные технологии обучения, поможет детям погрузиться в мир знаний. Спешите зарегистрироваться!",
+  },
 
-    {
-        id: 2,
-        title: 'Заголовок новости',
-        date: '21 декабря 2023',
-        subtext: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst.',
-        pic: '/assets/news-img.png',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst. Vestibulum tristique porta aliquam. Suspendisse blandit et sapien sit amet sagittis. Praesent tristique ante sed lacinia congue. Etiam egestas mauris at arcu gravida interdum. Aliquam feugiat risus lacus, ac rutrum dolor porttitor vitae. Etiam porta, nunc sit amet pellentesque posuere, risus nulla sollicitudin enim, commodo bibendum nulla lacus et lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-    },
-    {
-        id: 3,
-        title: 'Заголовок новости',
-        date: '19 января 2024',
-        subtext: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst.',
-        pic: '/assets/news-img.png',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst. Vestibulum tristique porta aliquam. Suspendisse blandit et sapien sit amet sagittis. Praesent tristique ante sed lacinia congue. Etiam egestas mauris at arcu gravida interdum. Aliquam feugiat risus lacus, ac rutrum dolor porttitor vitae. Etiam porta, nunc sit amet pellentesque posuere, risus nulla sollicitudin enim, commodo bibendum nulla lacus et lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-    },
-    {
-        id: 4,
-        title: 'Заголовок новости',
-        date: '19 января 2024',
-        subtext: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst.',
-        pic: '/assets/news-img.png',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst. Vestibulum tristique porta aliquam. Suspendisse blandit et sapien sit amet sagittis. Praesent tristique ante sed lacinia congue. Etiam egestas mauris at arcu gravida interdum. Aliquam feugiat risus lacus, ac rutrum dolor porttitor vitae. Etiam porta, nunc sit amet pellentesque posuere, risus nulla sollicitudin enim, commodo bibendum nulla lacus et lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-    },
-    {
-        id: 5,
-        title: 'Заголовок новости',
-        date: '19 января 2024',
-        subtext: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst.',
-        pic: '/assets/news-img.png',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst. Vestibulum tristique porta aliquam. Suspendisse blandit et sapien sit amet sagittis. Praesent tristique ante sed lacinia congue. Etiam egestas mauris at arcu gravida interdum. Aliquam feugiat risus lacus, ac rutrum dolor porttitor vitae. Etiam porta, nunc sit amet pellentesque posuere, risus nulla sollicitudin enim, commodo bibendum nulla lacus et lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-    },
-    {
-        id: 6,
-        title: 'Заголовок новости',
-        date: '19 января 2024',
-        subtext: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst.',
-        pic: '/assets/news-img.png',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst. Vestibulum tristique porta aliquam. Suspendisse blandit et sapien sit amet sagittis. Praesent tristique ante sed lacinia congue. Etiam egestas mauris at arcu gravida interdum. Aliquam feugiat risus lacus, ac rutrum dolor porttitor vitae. Etiam porta, nunc sit amet pellentesque posuere, risus nulla sollicitudin enim, commodo bibendum nulla lacus et lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-    },
-    {
-        id: 7,
-        title: 'Заголовок новости',
-        date: '19 января 2024',
-        subtext: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst.',
-        pic: '/assets/news-img.png',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst. Vestibulum tristique porta aliquam. Suspendisse blandit et sapien sit amet sagittis. Praesent tristique ante sed lacinia congue. Etiam egestas mauris at arcu gravida interdum. Aliquam feugiat risus lacus, ac rutrum dolor porttitor vitae. Etiam porta, nunc sit amet pellentesque posuere, risus nulla sollicitudin enim, commodo bibendum nulla lacus et lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-    },
-    {
-        id: 8,
-        title: 'Заголовок новости',
-        date: '19 января 2024',
-        subtext: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst.',
-        pic: '/assets/news-img.png',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi elit, egestas ut feugiat id, laoreet volutpat risus. Cras condimentum, ligula eget varius eleifend, massa nibh imperdiet est, vel sagittis quam justo vestibulum eros. Cras dignissim mi quis fringilla feugiat. Proin malesuada luctus diam, vitae faucibus dolor venenatis vel. In hac habitasse platea dictumst. Vestibulum tristique porta aliquam. Suspendisse blandit et sapien sit amet sagittis. Praesent tristique ante sed lacinia congue. Etiam egestas mauris at arcu gravida interdum. Aliquam feugiat risus lacus, ac rutrum dolor porttitor vitae. Etiam porta, nunc sit amet pellentesque posuere, risus nulla sollicitudin enim, commodo bibendum nulla lacus et lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-    }
-]
-
+  {
+    id: 2,
+    title: "Праздничная скидка: подготовьтесь к праздникам с пользой!",
+    date: "21 декабря 2023",
+    subtext:
+      "Сниженные цены на все курсы до конца января. Успейте подарить ребенку лучшее образование!",
+    pic: "/assets/news-img.png",
+    text: "Дарим праздничное настроение вместе с нашими специальными предложениями! Только до 31 января вы можете записаться на любой курс со скидкой 20%. Сделайте обучение доступным и увлекательным!",
+  },
+  {
+    id: 3,
+    title: "Наша школа в топе: новое признание в мире онлайн-образования!",
+    date: "29 января 2024",
+    subtext: "Простое и увлекательное знакомство с IT для самых юных.",
+    pic: "/assets/news-img.png",
+    text: "Начните изучение программирования с наших новых курсов! Пошаговый подход, практические задания и увлекательные проекты помогут детям освоить языки программирования и развить логическое мышление.",
+  },
+  {
+    id: 4,
+    title: "Запуск нового курса: основы программирования для детей!",
+    date: "1 февряля 2024",
+    subtext: "Простое и увлекательное знакомство с IT для самых юных",
+    pic: "/assets/news-img.png",
+    text: "Начните изучение программирования с наших новых курсов! Пошаговый подход, практические задания и увлекательные проекты помогут детям освоить языки программирования и развить логическое мышление.",
+  },
+  {
+    id: 5,
+    title: "Родительский клуб: участвуйте в жизни школы!",
+    date: "14 февраля",
+    subtext: "Мы запускаем новый формат общения с родителями наших учеников.",
+    pic: "/assets/news-img.png",
+    text: "Каждую неделю мы проводим открытые встречи для родителей, чтобы рассказать о достижениях школы, поделиться успехами детей и ответить на все ваши вопросы. Присоединяйтесь!",
+  },
+  {
+    id: 6,
+    title: "Путешествие в мир шахмат: открыта запись на спецкурс!",
+    date: "7 апреля",
+    subtext:
+      "Уникальный курс по математике для развития логики и критического мышления",
+    pic: "/assets/news-img.png",
+    text: "Этот курс научит детей решать задачи творчески и находить нестандартные решения. Идеально для учеников, которые хотят углубить свои знания и полюбить математику!",
+  },
+  {
+    id: 7,
+    title:
+      "Секреты эффективного обучения: мастер-класс от наших преподавателей.",
+    date: "9 апреля 2024",
+    subtext: "Полезные советы и методики для родителей и детей.",
+    pic: "/assets/news-img.png",
+    text: "Не пропустите уникальный мастер-класс, на котором наши эксперты расскажут, как сделать процесс обучения максимально эффективным и интересным. Встреча пройдет в формате онлайн.",
+  },
+  {
+    id: 8,
+    title: "Каникулы с пользой: интенсивы от онлайн-школы!",
+    date: "19 марта 2024",
+    subtext: "Занимательные программы для детей, которые хотят узнать больше.",
+    pic: "/assets/news-img.png",
+    text: "Не знаете, чем занять ребенка на каникулах? У нас есть решение! Интенсивные программы по различным предметам помогут провести время с пользой и получить новые знания.",
+  },
+];
 
 export const eventsItem = [
-    {
-        id:1,
-        type: 'Встреча',
-        img: 'assets/events-block-img.svg',
-        title: 'Секреты эффективного обучения',
-        text: 'Узнайте, как улучшить свои навыки и добиться успеха! Эксперты расскажут, как учиться эффективнее и достигать результатов быстрее.',
-        date: '13 ноября 2025'
-    },
-    {
-        id:2,
-        type: 'Встреча',
-        img: 'assets/events-block-img.svg',
-        title: 'Обучение: интересно и продуктивно',
-        text: 'Открытая встреча для всех, кто хочет сделать обучение интересным и продуктивным. Полезные советы и разбор реальных кейсов!',
-        date: '17 июня 2025'
-    },
-    {
-        id:3,
-        type: 'Встреча',
-        img: 'assets/events-block-img.svg',
-        title: 'Секреты успеха в учебе',
-        text: 'Присоединяйтесь, чтобы узнать секреты успешного обучения! Наши преподаватели расскажут, как легко усваивать даже сложные темы.',
-        date: '1 мая 2025'
-    },
-    {
-        id:4,
-        type: 'Встреча',
-        img: 'assets/events-block-img.svg',
-        title: 'Мотивация и результат в учебе',
-        text: 'Хотите учиться эффективно и с удовольствием? На встрече мы расскажем, как мотивировать себя и достичь максимальных результатов.',
-        date: '24 июля 2025'
-    },
-    {
-        id:5,
-        type: 'Встреча',
-        img: 'assets/events-block-img.svg',
-        title: 'Идеальный план обучения',
-        text: 'Узнайте, как грамотно составить план обучения и справляться с любыми задачами. Полезные лайфхаки и практические советы ждут вас!',
-        date: '12 сентября 2025'
-    },
-    {
-        id:6,
-        type: 'Встреча',
-        img: 'assets/events-block-img.svg',
-        title: 'Рабочие методы обучения',
-        text: 'Встреча, которая вдохновит на новые достижения! Эксперты расскажут о лучших методах обучения, которые реально работают.',
-        date: '7 августа 2025'
-    },
-    {
-        id:7,
-        type: 'Встреча',
-        img: 'assets/events-block-img.svg',
-        title: 'Время и мотивация для учебы',
-        text: 'Обсудим, как находить время на обучение и не терять мотивацию. Советы, которые помогут каждому добиться успеха!',
-        date: '13 мая 2025'
-    },
-    {
-        id:8,
-        type: 'Встреча',
-        img: 'assets/events-block-img.svg',
-        title: 'Освой профессию быстрее',
-        text: 'Хотите освоить новую профессию или улучшить знания? Наши преподаватели поделятся ключевыми рекомендациями для быстрого прогресса.',
-        date: '22 декабря 2025'
-    },
-    {
-        id:9,
-        type: 'Встреча',
-        img: 'assets/events-block-img.svg',
-        title: 'Новые навыки с легкостью',
-        text: 'Уникальная встреча для тех, кто готов развиваться! Практические советы, которые помогут быстрее освоить сложные навыки.',
-        date: '7 ноября 2025'
-    }
-]
+  {
+    id: 1,
+    type: "Встреча",
+    img: "assets/events-block-img.svg",
+    title: "Секреты эффективного обучения",
+    text: "Узнайте, как улучшить свои навыки и добиться успеха! Эксперты расскажут, как учиться эффективнее и достигать результатов быстрее.",
+    date: "13 ноября 2025",
+  },
+  {
+    id: 2,
+    type: "Встреча",
+    img: "assets/events-block-img.svg",
+    title: "Обучение: интересно и продуктивно",
+    text: "Открытая встреча для всех, кто хочет сделать обучение интересным и продуктивным. Полезные советы и разбор реальных кейсов!",
+    date: "17 июня 2025",
+  },
+  {
+    id: 3,
+    type: "Встреча",
+    img: "assets/events-block-img.svg",
+    title: "Секреты успеха в учебе",
+    text: "Присоединяйтесь, чтобы узнать секреты успешного обучения! Наши преподаватели расскажут, как легко усваивать даже сложные темы.",
+    date: "1 мая 2025",
+  },
+  {
+    id: 4,
+    type: "Встреча",
+    img: "assets/events-block-img.svg",
+    title: "Мотивация и результат в учебе",
+    text: "Хотите учиться эффективно и с удовольствием? На встрече мы расскажем, как мотивировать себя и достичь максимальных результатов.",
+    date: "24 июля 2025",
+  },
+  {
+    id: 5,
+    type: "Встреча",
+    img: "assets/events-block-img.svg",
+    title: "Идеальный план обучения",
+    text: "Узнайте, как грамотно составить план обучения и справляться с любыми задачами. Полезные лайфхаки и практические советы ждут вас!",
+    date: "12 сентября 2025",
+  },
+  {
+    id: 6,
+    type: "Встреча",
+    img: "assets/events-block-img.svg",
+    title: "Рабочие методы обучения",
+    text: "Встреча, которая вдохновит на новые достижения! Эксперты расскажут о лучших методах обучения, которые реально работают.",
+    date: "7 августа 2025",
+  },
+  {
+    id: 7,
+    type: "Встреча",
+    img: "assets/events-block-img.svg",
+    title: "Время и мотивация для учебы",
+    text: "Обсудим, как находить время на обучение и не терять мотивацию. Советы, которые помогут каждому добиться успеха!",
+    date: "13 мая 2025",
+  },
+  {
+    id: 8,
+    type: "Встреча",
+    img: "assets/events-block-img.svg",
+    title: "Освой профессию быстрее",
+    text: "Хотите освоить новую профессию или улучшить знания? Наши преподаватели поделятся ключевыми рекомендациями для быстрого прогресса.",
+    date: "22 декабря 2025",
+  },
+  {
+    id: 9,
+    type: "Встреча",
+    img: "assets/events-block-img.svg",
+    title: "Новые навыки с легкостью",
+    text: "Уникальная встреча для тех, кто готов развиваться! Практические советы, которые помогут быстрее освоить сложные навыки.",
+    date: "7 ноября 2025",
+  },
+];

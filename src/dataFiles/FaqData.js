@@ -2,21 +2,21 @@ export const faq = [
     {
         id: 1,
         title: 'Кому подойдёт этот курс?',
-        text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendidignissimos ex iure quae. Magnam totam tempore cupiditate fugitalias id.'
+        text: 'Наш курс идеально подходит для детей, которые любят учиться новому, проявляют любопытство и готовы развивать свои навыки. Мы адаптируем материал под разный уровень подготовки, чтобы каждый ребенок чувствовал себя комфортно и мог достичь успехов в обучении.'
     },
     {
         id: 2,
         title: 'Что нужно ребенку для занятий?',
-        text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendidignissimos ex iure quae. Magnam totam tempore cupiditate fugitalias id.'
+        text: 'Для участия в наших занятиях потребуется компьютер или планшет с доступом в интернет, а также наушники с микрофоном для качественного взаимодействия. Мы предоставляем все необходимые учебные материалы, но дополнительная тетрадь для записей всегда пригодится!'
     },
     {
         id: 3,
         title: 'Где можно узнать расписание занятий?',
-        text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendidignissimos ex iure quae. Magnam totam tempore cupiditate fugitalias id.'
+        text: 'Вы можете найти актуальное расписание занятий на нашей платформе в личном кабинете. Также мы отправляем уведомления о начале занятий на вашу электронную почту или в мессенджеры, чтобы вы всегда были в курсе изменений.'
     },
     {
         id: 4,
         title: 'Что делать, если ребенок пропустит занятие?',
-        text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendi dignissimos ex iure quae. Magnam totam tempore cupiditate fugit alias id.Voluptatum porro est expedita minima, incidunt cum fugiat, deserunt eveniet eligendidignissimos ex iure quae. Magnam totam tempore cupiditate fugitalias id.'
+        text: 'Не переживайте, если ребенок пропустил занятие! Мы предоставляем записи уроков, которые можно посмотреть в удобное время. Также есть возможность договориться об индивидуальной консультации с преподавателем, чтобы наверстать упущенное.'
     },
 ]
